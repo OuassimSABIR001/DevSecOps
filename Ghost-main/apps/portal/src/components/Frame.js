@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import {createPortal} from 'react-dom';
-
+// This is a comment
 export default class Frame extends Component {
     componentDidMount() {
         this.node.addEventListener('load', this.handleLoad);
